@@ -14,7 +14,7 @@ class GiftAdapter(
     inner class GiftViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val emoji: TextView = view.findViewById(R.id.giftEmoji)
         val name: TextView = view.findViewById(R.id.giftName)
-        val price: TextView = view.findViewById(R.id.giftPrice)
+        val collectionNumber: TextView = view.findViewById(R.id.giftCollectionNumber)
         val nftBadge: TextView = view.findViewById(R.id.nftBadge)
     }
 
@@ -28,7 +28,7 @@ class GiftAdapter(
         val gift = gifts[position]
         holder.emoji.text = gift.emoji
         holder.name.text = gift.name
-        holder.price.text = gift.priceLabel
+        holder.collectionNumber.text = gift.collectionNumber
         holder.nftBadge.visibility = if (gift.isNft) View.VISIBLE else View.GONE
         holder.itemView.setOnClickListener { onGiftClick(gift) }
     }
