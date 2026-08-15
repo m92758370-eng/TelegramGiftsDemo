@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="telegram_blue">#2AABEE</color>
+    <color name="telegram_blue_dark">#229ED9</color>
+    <color name="chat_bg">#0E1621</color>
+    <color name="chat_bg_light">#FFFFFF</color>
+    <color name="bubble_out">#2B5278</color>
+    <color name="bubble_in">#182533</color>
+    <color name="premium_gold_start">#FFD966</color>
+    <color name="premium_gold_end">#FF8A65</color>
+    <color name="premium_purple_start">#8E85EE</color>
+    <color name="premium_purple_end">#5B6EF5</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#8B98A5</color>
+    <color name="nft_gold">#FFD700</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
